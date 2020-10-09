@@ -5,9 +5,8 @@
              Title="Detsember">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+            <Label
+                Text="gaf" />
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

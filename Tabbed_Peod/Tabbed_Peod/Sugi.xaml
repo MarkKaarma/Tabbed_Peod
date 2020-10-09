@@ -1,16 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Tabbed_Peod.Sugi"
              xmlns:local="clr-namespace:Tabbed_Peod;assembly=Tabbed_Peod"
              xmlns:android="clr-namespace:Xamarin.Forms.PlatformConfiguration.AndroidSpecific;assembly=Xamarin.Forms.Core"
-             android:TabbedPage.ToolbarPlacement="Bottom"
-             x:Class="Tabbed_Peod.MainPage">
-
+             Title="Sügi">
     <TabbedPage.Children>
-        <local:Talvel/>
-        <local:Kevad/>
-        <local:Suvi/>
-        <local:Sugi/>
+        <local:September/>
+        <local:Oktoober/>
+        <local:Veebruar />
         <!--Добавить больше TabbedPage и Content запинхуть месяц под опредлененный год (Table)-->
     </TabbedPage.Children>
 </TabbedPage>

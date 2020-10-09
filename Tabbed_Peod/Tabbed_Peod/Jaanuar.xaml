@@ -5,10 +5,10 @@
              Title="Jaanuar">
     <ContentPage.Content>
         <StackLayout>
-            <Label 
-                Text="Gaf"
-                VerticalOptions="StartAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+            <StackLayout>
+                <Image Source="january.png"
+                       HorizontalOptions="Fill"/>
+            </StackLayout>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
