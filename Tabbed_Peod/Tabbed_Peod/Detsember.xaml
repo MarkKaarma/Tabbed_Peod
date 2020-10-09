@@ -5,8 +5,15 @@
              Title="Detsember">
     <ContentPage.Content>
         <StackLayout>
+            <Image Source="december.jpg"/>
             <Label
-                Text="gaf" />
+                Text="gaf"
+                VerticalOptions="End"
+                HorizontalOptions="Center"/>
+            <Button x:Name="December"
+                    Text="Click"
+                    VerticalOptions="End"
+                    HorizontalOptions="StartAndExpand"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

@@ -6,8 +6,15 @@
     <ContentPage.Content>
         <StackLayout>
             <StackLayout>
-                <Image Source="january.png"
-                       HorizontalOptions="Fill"/>
+                <Image Source="january.png"/>
+                <Label
+                Text="gaf"
+                VerticalOptions="End"
+                HorizontalOptions="Center"/>
+                <Button x:Name="January"
+                    Text="Click"
+                    VerticalOptions="End"
+                    HorizontalOptions="StartAndExpand"/>
             </StackLayout>
         </StackLayout>
     </ContentPage.Content>
