@@ -6,11 +6,10 @@
              xmlns:android="clr-namespace:Xamarin.Forms.PlatformConfiguration.AndroidSpecific;assembly=Xamarin.Forms.Core"
              Title="Talvel">
 
-    <TabbedPage.Children>
+    <TabbedPage.Children> <!--Тут пишем то, что попадет в сезон. После этого каждый месяц оформляем картинками, текстами и т.п. Тут сами разберётесь.-->
         <local:Detsember/>
         <local:Jaanuar/>
         <local:Veebruar />
-        <!--Добавить больше TabbedPage и Content запинхуть месяц под опредлененный год (Table)-->
     </TabbedPage.Children>
     
 </TabbedPage>
