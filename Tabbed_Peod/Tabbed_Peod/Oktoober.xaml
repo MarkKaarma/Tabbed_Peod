@@ -5,9 +5,15 @@
              Title="Oktoober">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+            <Image Source="october.jpg"/>
+            <Label
+                Text="gaF"
+                VerticalOptions="End"
+                HorizontalOptions="Center"/>
+            <Button x:Name="October"
+                    Text="Click"
+                    VerticalOptions="End"
+                    HorizontalOptions="StartAndExpand"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

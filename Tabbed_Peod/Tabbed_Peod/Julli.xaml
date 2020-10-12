@@ -5,9 +5,16 @@
              Title="Junni">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+            <Image Source="july.png"/>
+            <Label
+                Text="gAf"
+                VerticalOptions="End"
+                HorizontalOptions="Center"/>
+            <Button x:Name="July"
+                    Text="Click"
+                    VerticalOptions="End"
+                    HorizontalOptions="StartAndExpand"
+                    />
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
