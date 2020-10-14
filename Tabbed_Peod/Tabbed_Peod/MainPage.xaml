@@ -4,7 +4,7 @@
              xmlns:local="clr-namespace:Tabbed_Peod;assembly=Tabbed_Peod"
              xmlns:android="clr-namespace:Xamarin.Forms.PlatformConfiguration.AndroidSpecific;assembly=Xamarin.Forms.Core"
              android:TabbedPage.ToolbarPlacement="Bottom"
-             x:Class="Tabbed_Peod.MainPage">
+             x:Class="Tabbed_Peod.MainPage" BarTextColor="WhiteSmoke" BarBackgroundColor="#4A76F1">
              <!--Обязательно нужны последние 3 штуки!-->
 
     <TabbedPage.Children> <!--Чтобы создать две таблицы, то нужно сделать ещё - сезоны. Пишем сюда сезоны и переходим к .cs-->

@@ -8,7 +8,7 @@
     <TabbedPage.Children>
         <local:September/>
         <local:Oktoober/>
-        <local:Veebruar />
+        <local:November />
         <!--Добавить больше TabbedPage и Content запинхуть месяц под опредлененный год (Table)-->
     </TabbedPage.Children>
 </TabbedPage>

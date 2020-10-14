@@ -10,7 +10,7 @@
                 Text="gAf"
                 VerticalOptions="End"
                 HorizontalOptions="Center"/>
-            <Button x:Name="August"
+            <Button x:Name="August1"
                     Text="Click"
                     VerticalOptions="End"
                     HorizontalOptions="StartAndExpand"/>
