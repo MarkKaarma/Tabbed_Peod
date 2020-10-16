@@ -8,14 +8,27 @@
             <Image Source="december.jpg">
             </Image>
             <Label
-                Text="gaf"
+                Text="24 декабря – канун Рождества"
                 VerticalOptions="End"
                 HorizontalOptions="Center"/>
             <Button x:Name="December"
-                    Text="Click"
+                    Text="Hm..."
                     VerticalOptions="End"
                     HorizontalOptions="StartAndExpand"
                     Clicked="December_Clicked"/>
+            <Button x:Name="Texti"
+                    Text="Fun fact"
+                    VerticalOptions="Start"
+                    HorizontalOptions="FillAndExpand"
+                    Clicked="Texti_Clicked"/>
+            <Frame x:Name="Textis" Margin="20"
+                   VerticalOptions="End"
+                   HorizontalOptions="FillAndExpand">
+                <Label x:Name="Textis1"
+                     Text="Декабрь это тот месяц, где ты тратишь больше всего денег на родственников"
+                     IsVisible="false">
+                </Label>
+            </Frame>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

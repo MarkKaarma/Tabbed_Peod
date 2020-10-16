@@ -7,13 +7,18 @@
         <StackLayout>
             <Image Source="august.png"/>
             <Label
-                Text="gAf"
+                Text="20 августа – День восстановления независимости"
                 VerticalOptions="End"
                 HorizontalOptions="Center"/>
             <Button x:Name="August1"
-                    Text="Click"
+                    Text="More information (URL)"
                     VerticalOptions="End"
-                    HorizontalOptions="StartAndExpand"/>
+                    HorizontalOptions="StartAndExpand"
+                    Clicked="August1_Clicked"/>
+            <Button x:Name="Texti"
+                    Text="Fun fact"
+                    VerticalOptions="Start"
+                    HorizontalOptions="FillAndExpand" />
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

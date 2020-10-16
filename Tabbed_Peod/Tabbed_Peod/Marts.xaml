@@ -7,13 +7,18 @@
         <StackLayout>
             <Image Source="march.jpg"/>
             <Label
-                Text="Gaf"
+                Text="14 марта – День родного языка"
                 VerticalOptions="End"
                 HorizontalOptions="Center"/>
             <Button x:Name="March"
-                    Text="Click"
+                    Text="More information (URL)"
                     VerticalOptions="End"
-                    HorizontalOptions="StartAndExpand"/>
+                    HorizontalOptions="StartAndExpand"
+                    Clicked="March_Clicked"/>
+            <Button x:Name="Texti"
+                    Text="Fun fact"
+                    VerticalOptions="Start"
+                    HorizontalOptions="FillAndExpand" />
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
