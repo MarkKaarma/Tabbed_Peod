@@ -19,6 +19,19 @@
                     Text="Fun fact"
                     VerticalOptions="Start"
                     HorizontalOptions="FillAndExpand" />
+            <Button x:Name="Texti"
+                    Text="Fun fact"
+                    VerticalOptions="Start"
+                    HorizontalOptions="FillAndExpand"
+                    Clicked="Texti_Clicked"/>
+            <Frame x:Name="Textis" Margin="20"
+                   VerticalOptions="End"
+                   HorizontalOptions="FillAndExpand">
+                <Label x:Name="Textis1"
+                     Text="В День Святого Валентина романтика на последнем месте. Хоть и принято считать, что щедрые подарки в этот день вызваны романтикой, но исследования показали, что самые дорогие подарки дарят учителям, детям, мамам, а потом только любимым."
+                     IsVisible="false">
+                </Label>
+            </Frame>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

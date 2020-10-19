@@ -23,5 +23,11 @@ namespace Tabbed_Peod
             Uri url = new Uri("https://stolitsa.ee/estoniya/v-voskresene-vyvesheny-flagi-v-chest-dnya-otcov");
             await Browser.OpenAsync(url); 
         }
+
+        private void Texti_Clicked(object sender, EventArgs e)
+        {
+            Textis.IsVisible = true;
+            Textis1.IsVisible = true;
+        }
     }
 }

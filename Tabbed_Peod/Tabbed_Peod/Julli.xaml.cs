@@ -22,5 +22,11 @@ namespace Tabbed_Peod
             Uri url = new Uri("https://vgtimes.ru/news/68346-geymery-prazdnuyut-den-videoigry-i-publikuyut-lichnye-topy-s-samymi-lyubimymi-taytlami.html");
             await Browser.OpenAsync(url);
         }
+
+        private void Texti_Clicked(object sender, EventArgs e)
+        {
+            Textis.IsVisible = true;
+            Textis1.IsVisible = true;
+        }
     }
 }

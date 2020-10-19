@@ -23,5 +23,11 @@ namespace Tabbed_Peod
             await Browser.OpenAsync(url);
         
         }
+
+        private void Texti_Clicked(object sender, EventArgs e)
+        {
+            Textis.IsVisible = true;
+            Textis1.IsVisible = true;
+        }
     }
 }

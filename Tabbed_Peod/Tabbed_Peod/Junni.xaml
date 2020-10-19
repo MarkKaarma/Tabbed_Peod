@@ -19,6 +19,19 @@
                     Text="Fun fact"
                     VerticalOptions="Start"
                     HorizontalOptions="FillAndExpand" />
+            <Button x:Name="Texti"
+                    Text="Fun fact"
+                    VerticalOptions="Start"
+                    HorizontalOptions="FillAndExpand"
+                    Clicked="Texti_Clicked"/>
+            <Frame x:Name="Textis" Margin="20"
+                   VerticalOptions="End"
+                   HorizontalOptions="FillAndExpand">
+                <Label x:Name="Textis1"
+                     Text="Июнь месяц не гарантирует того, что ты будешь отдыхать на пляже или наслаждаться погодой. "
+                     IsVisible="false">
+                </Label>
+            </Frame>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

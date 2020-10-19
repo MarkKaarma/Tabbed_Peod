@@ -22,5 +22,11 @@ namespace Tabbed_Peod
             Uri url = new Uri("https://www.valitsus.ee/ru/den-soprotivleniya-22-sentyabrya");
             await Browser.OpenAsync(url);
         }
+
+        private void Texti_Clicked(object sender, EventArgs e)
+        {
+            Textis.IsVisible = true;
+            Textis1.IsVisible = true;
+        }
     }
 }
