@@ -18,10 +18,6 @@
             <Button x:Name="Texti"
                     Text="Fun fact"
                     VerticalOptions="Start"
-                    HorizontalOptions="FillAndExpand" />
-            <Button x:Name="Texti"
-                    Text="Fun fact"
-                    VerticalOptions="Start"
                     HorizontalOptions="FillAndExpand"
                     Clicked="Texti_Clicked"/>
             <Frame x:Name="Textis" Margin="20"
